@@ -1,3 +1,9 @@
+@media screen and (max-width: 1200px){
+  .main-container {
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   p {
     font-size: 0.9rem;
@@ -7,6 +13,10 @@
   .skills-list ul li {
     font-size: 0.9rem;
   }
+  }
+
+  .nav .logo {
+    font-size: 1.1rem;
   }
 
 @media screen and (max-width: 825px) {
@@ -67,6 +77,15 @@
     font-size: 0.8rem;
   }
 
+  .nav .logo {
+    font-size: 1rem;
+  }
+
+.nav {
+  padding: 0 4rem;
+}
+
+
   /* Hero Section */
   #hero {
     grid-template-columns: 1fr;
@@ -114,6 +133,13 @@
   .hero-name {
     font-size: 2rem;
   }
+  .nav .logo {
+    font-size: 0.9rem;
+  }
+
+  .nav {
+    padding: 0 3rem;
+  }
 
 }
 
@@ -134,6 +160,18 @@
   nav ul {
     justify-content: start;
     margin-top: 9rem;
+  }
+
+  .nav {
+    padding: 0 2rem;
+  }
+
+  .nav {
+    height: 60px;
+  }
+
+  .burger {
+    top: 15px;
   }
 
 }
